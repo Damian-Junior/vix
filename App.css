@@ -1,0 +1,109 @@
+
+.container{
+  width: 100%;
+  height: 100vh;
+  position: relative;
+ 
+  background-image: url(tobg.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: center;
+  background-blend-mode: multiply;
+  /* background-color: black;    */
+}
+
+
+h1{
+  color:gold;
+  text-align: center;
+  margin:auto
+}
+#input{
+  width:35%;
+  border:none;
+  background-color:white;;
+  margin: auto;
+  margin-left:30%;
+  height:5ex;
+  font-size: 1.2em;
+  outline: none;
+  margin-top:15%;
+  padding:10px 20px;
+  border-radius: 20px;
+}
+#itemBox{
+  box-sizing: border-box;
+  max-width: 60%;
+  width:50%;
+  margin-left: 28%;
+  max-height: 64%;
+  text-align: center;
+  color:#8f4008;
+  border-radius: 10px;
+  font-family: cursive;
+  font-weight: bolder;
+  font-size: 1.5em;
+}
+.items{
+
+  width:100%;
+  margin-bottom: 40px;
+  text-overflow: clip;
+  box-sizing: border-box;
+  box-shadow: 0px 1px 10px white;
+  height:4.5ex;
+  padding:5px 10px 0px 20px;
+  box-sizing: border-box;
+  text-align:left;
+  position: relative;
+  border-radius:10px;
+  list-style: none;
+  background-color: rgba(0, 0, 0, 0.3);
+  color:#8f4008;
+  font-family: cursive;
+  font-weight: bolder;
+  font-size: 1.5em !important;
+}
+.editButton{
+  position: absolute;
+  top:2px;
+  left:85%;
+  width:50px;
+  height: 46px;
+  /* background-color:rgb(95, 91, 68); */
+  background-color: transparent;
+  outline: none;
+  border:none;
+  color:green;
+  font-size:1em;
+}
+.deleteButton{
+  position: absolute;
+  top:3px;
+  left:92%;
+  font-weight: bolder;
+  width:50px;
+  height: 46px;
+  border-radius: 50%;
+  background-color: #8f4008;
+  outline: none;
+  color:white;
+}
+
+#add{
+  position: absolute;
+  top:32.4%;
+  background-color: #8f4008;
+  color:white;
+  font-size: 1.2em;
+  text-shadow:  1px 1px whitesmoke;
+  left:65.3%;
+  height: 7ex;
+  width: 67px;
+  border-collapse: collapse;
+  border-radius: 0px 20px 20px 0 ;
+  outline: none;
+  border:none; 
+}
+
+ 
